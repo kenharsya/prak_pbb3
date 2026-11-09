@@ -1,17 +1,36 @@
-# Aplikasi Katalog Novel - Tugas Praktikum PBB
+# Aplikasi Katalog Novel - Tugas Praktikum 3 PBB
 
-Aplikasi katalog novel berbasis Flutter dengan antarmuka bertema warna pastel, mendukung pencarian produk, serta dilengkapi halaman detail produk.
+Aplikasi mobile berbasis Flutter yang menyediakan katalog novel lengkap dengan fitur **Full CRUD** (Create, Read, Update, Delete) serta pencarian real-time yang terinterkoneksi dengan `ApiService`.
 
-## Identitas Mahasiswa
-- **Nama**: Aqeela Hilmana Rabbani
-- **NIM**: 240102016
-- **Program Studi**: Teknik Informatika
-- **Perguruan Tinggi**: Universitas Muhammadiyah Bandung
+---
 
-## Link Video Demo & Penjelasan (YouTube)
-[Tonton Video Demonstrasi Aplikasi di YouTube](https://youtu.be/3378RQIwEnY?si=PZgUkvDEHWGwai9w)
+##  Identitas Mahasiswa
 
-## Fitur Utama
-1. **Katalog Part Motor**: Menampilkan daftar part motor dengan kartu warna pastel secara dinamis.
-2. **Pencarian Real-Time**: Fitur pencarian part motor dan merk sesuai kategori secara responsif.
-3. **Halaman Detail**: Menampilkan gambar produk, harga, kategori, dan deskripsi lengkap saat produk dipilih.
+* **Nama** : Ken Harsya Lazuardi
+* **NIM** : 240102047
+* **Program Studi** : Teknik Informatika
+* **Perguruan Tinggi** : Universitas Muhammadiyah Bandung
+* **Mata Kuliah** : Pemrograman Perangkat Bergerak (PBB)
+
+---
+
+##  Fitur Utama
+
+- **Read (Tampil Data)**: Menampilkan daftar katalog novel dalam bentuk grid rapi lengkap dengan harga, penulis, dan genre, serta halaman detail sinopsis.
+- **Create (Tambah Data)**: Menambahkan novel baru ke dalam katalog melalui form input.
+- **Update (Edit Data)**: Memperbarui informasi judul, penulis, harga, maupun sinopsis novel yang sudah ada.
+- **Delete (Hapus Data)**: Menghapus data novel dari katalog dengan dialog konfirmasi.
+- **Search (Pancarian)**: Fitur filter pencarian cepat berdasarkan judul, nama penulis, atau genre novel.
+
+---
+
+##  Teknologi & Environment
+
+- **Framework**: Flutter (Dart)
+- **State & Data Management**: Asynchronous Mock ApiService
+- **Target Platform**: Android, Web (Chrome), Windows Desktop
+
+##  Demo Video Aplikasi
+
+Saksikan pengujian penuh fitur CRUD dan antarmuka aplikasi katalog novel pada link berikut:
+* **YouTube Demo**: [Tonton Demo Aplikasi di YouTube](https://youtu.be/r9hRvVKPry4)
